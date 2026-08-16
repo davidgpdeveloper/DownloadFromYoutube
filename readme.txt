@@ -1,15 +1,14 @@
-Si falla, serà necessari fer el següent desde Terminal:
+If it fails, you will need to do the following from the terminal:
 
-1. Instal.lar "Node.js LTS"
+1. Install "Node.js LTS"
 
-Instalar Node.js:
+Install Node.js:
 winget install OpenJS.NodeJS.LTS -e
 
-Verificar:
+Verify:
 node -v
 
-
-2. Instal.lar "deno"
+2. Install "Deno"
 
 https://docs.deno.com/runtime/
 
@@ -19,5 +18,5 @@ Install the runtime with one command:
 # pwsh
 irm https://deno.land/install.ps1 | iex
 
-Verificar:
+Verify:
 deno --version
